@@ -263,14 +263,14 @@ header .btn{
 }
 
 .left-column {
-  flex: 6; /* 60% */
+  flex: 6;
   display: flex;
   flex-direction: column;
 }
 
 .top-row {
-  flex: 12; /* 80% */
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)),url(../SMARTECH-2048x1365.jpg); /* Example background */
+  flex: 12;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)),url(../SMARTECH-2048x1365.jpg);
   text-align: center;
   padding: 10px;
   background-size: cover;
@@ -292,8 +292,8 @@ header .btn{
 }
 
 .bottom-row {
-  flex: 2; /* 20% */
-  background-color: #FFD9AD; /* Example background */
+  flex: 2;
+  background-color: #FFD9AD;
   text-align: center;
   padding: 10px;
   display: flex;
@@ -314,21 +314,21 @@ header .btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;  /* Size of the circle */
-  height: 40px; /* Size of the circle */
-  background-color: #002428; /* Circle color */
-  border-radius: 50%; /* Make it a circle */
-  color: white; /* Icon color */
-  font-size: 24px; /* Size of the icon */
+  width: 40px;
+  height: 40px;
+  background-color: #002428;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
 }
 
 .fa-arrow-right {
   color: white;
-  font-size: 18px; /* Adjust icon size as needed */
+  font-size: 18px;
 }
 
 .right-column {
-  flex: 3; /* 30% */
+  flex: 3;
   display: flex;
   flex-direction: column;
 }
@@ -337,7 +337,7 @@ header .btn{
   flex: 1;
   text-align: center;
   padding: 10px;
-  margin: 2px 0; /* Optional spacing between rows */
+  margin: 2px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -353,21 +353,21 @@ header .btn{
 }
 
 footer {
-  background-color: #333; /* Dark background for the footer */
+  background-color: #333;
   color: white;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: stretch; /* Ensure both columns have the same height */
+  align-items: stretch;
 }
 
 .left-footer {
-  flex: 6; /* 60% */
+  flex: 6;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* This ensures content within is evenly spaced if needed */
+  justify-content: space-between;
   background: linear-gradient(to left,rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.1)),#004D56;
   width: 100%;
 }
@@ -377,10 +377,10 @@ footer {
 }
 
 .right-footer {
-  flex: 4; /* 40% */
+  flex: 4;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Space between social links */
+  gap: 10px;
   background-color: #004D56;
 }
 
@@ -405,7 +405,7 @@ footer {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Space between links */
+  gap: 10px;
 }
 
 .right-links a {
@@ -417,9 +417,9 @@ footer {
 }
 
 .right-links a img {
-  width: 20px; /* Adjust the size of the logo */
+  width: 20px;
   height: auto;
-  margin-right: 10px; /* Space between logo and text */
+  margin-right: 10px;
 }
 
 .right-links a:hover {
