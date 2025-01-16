@@ -6,14 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img src="Logo Universitas Kristen Maranatha.png" width="50px">
+        <img src="Logo Universitas Kristen Maranatha.png" width="70px">
         <nav class="navigation">
-            <a href="#">Profil</a>
-            <a href="#">Akademik</a>
-            <a href="#">Berita</a>
+            <a href="profil.html">Profil</a>
+            <a href="akademik.html">Akademik</a>
+            <a href="news.html">Berita</a>
             <a href="#">Prestasi</a>
         </nav>
         <div class="btn">
@@ -21,36 +22,39 @@
         </div>  
     </header>
     <section class="parallax">
-        <h2 id="text">Test Grafika Komputer</h2>
+        
         <img src="images/parallax/bg1.png" id="bg1">
         <img src="images/parallax/bg2.png" id="bg2">
-
         <img src="images/parallax/bg4.png" id="bg4">
         <img src="images/parallax/bg5.png" id="bg5">
         <img src="images/parallax/b1.png" id="b1">
         <img src="images/parallax/meteor shower.png" id="meteor">
         <img src="images/parallax/ball.png" id="ball">
-        
-        
         <img src="images/parallax/floor2.png" id="floor">
         <img src="images/parallax/ball shadow.png" id="ballshadow">
-        
         <img src="images/parallax/mtnL.png" id="mtnL">
-        <img src="images/parallax/mtnR.png" id="mtnR">
-        <h2 id="text2">Teknik Informatika</h2>
         <h2 id="text">Universitas Kristen Maranatha</h2>
+        <h2 id="text2">Teknik Informatika</h2>
         <p id="text3">Faculty of Information Technology - Maranatha Christian University is a fully inclusive learning environment. Each year we welcome hundreds of new students from a range of different backgrounds and experiences to our campus and we strongly believe that having a diverse student body leads to an enriched learning environment for all.</p>
+        <img src="images/parallax/mtnR.png" id="mtnR">
     </section>
     <section class="main">
         <div class="content peminatan">
             <div class="line"></div>
             <h1>Peminatan</h1>
-            <div class="carousel">
-                <div class="card-item">
-                    <h2>Pemrograman Game</h2>
-                    <p>Pembuatan game interaktif dengan elemen visual, audio, dan logika</p>
+            <div id="cont2">
+                <div id="slider-container2">
+                    <div id="slider2">
+                        <div class="slide2 pem1"><span><h2>Game Programming</h2><p>Pembuatan game interaktif dengan elemen visual, audio, dan logika.</p></span></div>
+                        <div class="slide2 pem2"><span><h2>Cyber Security</h2><p>Perlindungan sistem komputer dari ancaman, peretasan, dan pencurian data.</p></span></div>
+                        <div class="slide2 pem3"><span><h2>Artificial Intelligence</h2><p>Teknologi komputasi yang meniru kecerdasan manusia melalui pembelajaran mesin dan algoritma.</p></span></div>
+                        <div class="slide2 pem4"><span><h2>Health Informatics</h2><p>Pengelolaan informasi kesehatan menggunakan teknologi untuk meningkatkan pelayanan medis.</p></span></div>
+                    </div>
+                    <span onclick="slideRight2()" class="btn-slider2"></span>
+                    <span onclick="slideLeft2()" class="btn-slider2"></span>
                 </div>
             </div>
+            
         </div>
 
         <div class="content news">
@@ -60,68 +64,105 @@
                     <h1>ICE. Integrity (Integritas), Care (Kepedulian), Excellence (Keprimaan)  </h1>
                 </div>
                 <div class="two-columns">
-                  <div class="left-column">
-                    <div class="top-row">
-                        <h4>21 Mei 2024</h4>
-                        <h3>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h3>
-                    </div>
-                    <div class="bottom-row">
-                        <p>Selengkapnya</p>
-                        <div class="circle-icon">
-                            <i class="fa fa-arrow-right"></i>
+                    <div class="left-column">
+                        <div class="top-row">
+                            <h4>21 Mei 2024</h4>
+                            <h3>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h3>
+                        </div>
+                        <div class="bottom-row">
+                            <p><a href="news.html">Selengkapnya</a></p>
+                            <div class="circle-icon">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="right-column">
-                    <div class="news-row">
-                        <h3>21 Mei 2024</h3>
-                        <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
-                    </div>
-                    <div class="news-row">
-                        <h3>21 Mei 2024</h3>
-                        <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
-                    </div>
-                    <div class="news-row">
-                        <h3>21 Mei 2024</h3>
-                        <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
-                    </div>
-                    <div class="news-row news-row-more">
-                        <div class="news-row-more-container">
-                            <div class="news-more-left"></div>
-                            <div class="news-more-right"></div>
+                    <div class="right-column">
+                        <div class="news-row">
+                            <h3>21 Mei 2024</h3>
+                            <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
+                        </div>
+                        <div class="news-row">
+                            <h3>21 Mei 2024</h3>
+                            <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
+                        </div>
+                        <div class="news-row">
+                            <h3>21 Mei 2024</h3>
+                            <h4>ACARA EDUKASI DIGITAL MARKETING & SOSIALISASI DMC MARANATHA</h4>
+                        </div>
+                        <div class="news-row news-row-more">
+                            <div class="news-row-more-container">
+                                Berita Lainnya
+                                <div class="news-more-left"></div>
+                                <div class="news-more-right"></div>
+                            </div>
                         </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </div>
-
+<!-- 
         <div class="content quote">
-
-        </div>
+            <p id="quotation">"</p>
+            <div class="quote-container">
+                <div class="pic-quote">
+                    <div class="circle-pic"></div>
+                </div>
+                    
+                <div class="actual-quote">
+                    <p>Selamat datang di Kampus Maranatha.Kami menyambut teman-teman mahasiswa baru IT Maranatha. Mari belajar bersama kakak kelas, bersama dosen yang kompeten, kita bangun satu keluarga IT Maranatha yang memiliki slogan "No Limit, No Boudaries". Kita bergerak tanpa batas, kembangkan kreativitas seluas mungkin di era digital sekarang ini. Kita sudah memasuki Era Industri 4.0, dimana otomasi dan pertukaran data menjadi trend dalam suatu industri. Perkembangannya begitu cepat, tentu kita dituntut untuk mengikuti percepatannya.Mari teman-teman mahasiswa, persiapkan diri Anda, rencanakan secara terarah, dan ambil peluang karir di bidang teknologi informasi sesuai minat dan kemampuan masing-masing.Selamat belajar, bekerja, berkarya, berinovasi, saling melayani seperti satu Tubuh Kristus.Tuhan Yesus Kristus memberkati kita semua.</p>
+                    <p>Robby Tan, S.T., M.Kom</p>
+                    <p>Kepala Program Studi Teknik Informatika</p>
+                </div>
+            </div>
+        </div> -->
 
         <div class="content alumni">
-
+            <div class="alumni-top">
+                <div class="line"></div>
+                <h1>Recognizing Outstanding Alumni Achievements and Lasting Contributions</h1>
+            </div>
+            
+            <div id="cont">
+                <div id="slider-container">
+                    
+                    <div id="slider">
+                        <div class="slide"><span><h2>Tara Mawikere</h2><p>2272901</p></span></div>
+                        <div class="slide"><span><h2>Kevin Owen</h2><p>2272001</p></span></div>
+                        <div class="slide"><span><h2>Immanuel</h2><p>2272009</p></span></div>
+                        <div class="slide"><span><h2>Alpha Beta</h2><p>1272021</p></span></div>
+                        <div class="slide"><span><h2>Charlie Delta</h2><p>2072002</p></span></div>
+                        <div class="slide"><span><h2>Echo Fox</h2><p>1972012</p></span></div>
+                        <div class="slide"><span><h2>Golf Hotel</h2><p>1672032</p></span></div>
+                        <div class="slide"><span><h2>Indigo Juice</h2><p>22172005</p></span></div>
+                    </div>
+                    <span onclick="slideRight()" class="btn-slider"></span>
+                    <span onclick="slideLeft()" class="btn-slider"></span>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
         <div class="footer-container">
             <div class="left-footer">
                 <div class="alamat">
-                    <div class="line"></div>
-                    <h2>Kontak</h2>
-                    <br>
-                    <p>GKB Lt. 1</p>
-                    <p>Jl. Prof. drg. Surya Sumantri No. 65</p>
-                    <p>Bandung, Jawa Barat</p>
-                    <p>Phone +62 22 - 201 2186</p>
-                    <p>Whatsapp 0813-2482-3465</p>
-                    <p>pjsfit@maranatha.edu</p>
-                    <br>
-                    <p>2025 Universitas Kristen Maranatha</p>
+                    <div class="kontak-title">
+                        <div class="line"></div>
+                        <h2>Kontak</h2>
+                    </div>
+                    <div class="kontak-details">
+                        <p>GKB Lt. 1</p>
+                        <p>Jl. Prof. drg. Surya Sumantri No. 65</p>
+                        <p>Bandung, Jawa Barat</p>
+                        <p>Phone +62 22 - 201 2186</p>
+                        <p>Whatsapp 0813-2482-3465</p>
+                        <p>pjsfit@maranatha.edu</p>
+                        <br>
+                        <p>2025 Universitas Kristen Maranatha</p>
+                    </div>
                 </div>
             </div>
             <div class="right-footer">
+                <img src="Logo-UKM.png">
                 <div class="link-container">
                     <div class="left-links">
                         <a href="https://www.facebook.com" target="_blank">Profil</a>
@@ -131,22 +172,28 @@
                         <a href="https://www.youtube.com" target="_blank">Home</a>
                     </div>
                     <div class="right-links">
-                        <a href="https://www.pinterest.com" target="_blank">
-                            <img src="path_to_pinterest_logo.png" alt="Pinterest"> Twitter/X
-                        </a>
-                        <a href="https://www.snapchat.com" target="_blank">
-                            <img src="path_to_snapchat_logo.png" alt="Snapchat"> Instagram
-                        </a>
-                        <a href="https://www.tiktok.com" target="_blank">
-                            <img src="path_to_tiktok_logo.png" alt="TikTok"> Facebook
-                        </a>
-                        <a href="https://www.reddit.com" target="_blank">
-                            <img src="path_to_reddit_logo.png" alt="Reddit"> YouTube
-                        </a>
+                        <div class="sosmed">
+                            <a href="#" class="fa fa-twitter"></a>
+                            <p>Twitter</p>
+                        </div>
+                        <div class="sosmed">
+                            <a href="#" class="fa fa-instagram"></a>
+                            <p>Instagram</p>
+                        </div>
+                        <div class="sosmed">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <p>Facebook</p>
+                        </div>
+                        <div class="sosmed">
+                            <a href="#" class="fa fa-youtube"></a>
+                            <p>YouTube</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>  
+
+    <script src="script.js"></script>
 </body>
 </html>
