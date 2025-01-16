@@ -1,0 +1,260 @@
+header{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 100px; */
+  transition: 0.6s;
+  text-shadow: 1px 1px black;
+  background-color: #005A64;
+}
+
+header.sticky{
+  /* rgba(252, 228, 180, 0.7) */
+  background: rgba(135, 206, 235, 0.7);
+  padding: 10px 100px;
+  text-shadow:none;
+}
+
+header.sticky .navigation a{
+  color: black;
+}
+
+header.sticky .navigation a:hover{
+  color:white;
+  background: #AD794B;
+}
+
+header.sticky .logo{
+  color: black;
+}
+
+header img{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-left: 100px;
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+header .navigation .active{
+  right: 0;
+}
+
+header .navigation .close-btn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 25px;
+}
+
+header .navigation a{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+  transition-property: color, background;
+  height: 70px;
+  min-width: 120px;
+  text-align: center;
+  padding-top: 27px;
+}
+
+header .navigation a:hover{
+  color:white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+header .btn{
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.left-footer {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to left,rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.1)),#004D56;
+  width: 100%;
+}
+
+.alamat .line {
+  width: 2px;
+  height: 45px;
+  background-color: red;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.alamat {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kontak-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.kontak-title h2 {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.kontak-details {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.kontak-details p{
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.right-footer {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #004D56;
+}
+
+.right-footer img {
+  width: 200px;
+  transform: translateX(100%);
+  margin-top: 20px;
+}
+
+.link-container {
+  padding: 30px 0px 50px 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.right-footer a:hover {
+  text-decoration: underline;
+}
+
+
+.left-links, .right-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-links {
+  margin-top: 8px;
+}
+
+.right-links a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.right-links a img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.right-links a:hover {
+  text-decoration: underline;
+}
+
+.left-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  height: 30px;
+}
+
+.left-links a:hover {
+  text-decoration: underline;
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: row;
+}
+
+.sosmed p {
+  margin-left: 15px;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.sosmed .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width:10px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
